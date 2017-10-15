@@ -1,6 +1,6 @@
 baseurl = "https://taikii.github.io/"
 languageCode = "ja"
-Title = "The Wonderful Similar Posts"
+Title = "Similar Posts"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2017 Taiki IKEGAME"
 theme = "hugo_theme_pickles"
