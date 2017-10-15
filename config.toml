@@ -25,13 +25,12 @@ theme = "hugo_theme_pickles"
   #youtube = "Your YouTube username"
   #linkedin = "Your LinkedIn username"
   # Disqus shortname
-  #disqus = ""
+  disqus = "taikii-github-io"
   # Google Analytics API key.
   ga_api_key = "UA-108071624-1"
   author = "Taiki IKEGAME"
   authorwebsite = "taikii.github.io"
   #avatar = "/path/to/avatar"
-  #avatar = ""
   #contact = "Your contact link (ex. mailto:foo@example.com)"
   bio = "私は三流プログラマなので誰もが知っている当たり前のことしか書くことができません。ごめんなさい。"
   # Short subtitle/tagline. This is displayed in the header.
