@@ -1,0 +1,9 @@
+.sns-share {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.sns-share > span {
+  margin-right: 16px;
+}

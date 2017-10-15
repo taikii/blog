@@ -1,0 +1,84 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<article class="p-article">
+  <header>
+    <h1>{{ .Title }}</h1>
+    <div>
+      <div class="c-time">
+        Posted on
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+      </div>
+      {{ range .Params.tags }}
+      <a href="{{ $baseurl }}tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
+      {{ end }}
+    </div>
+  </header>
+  {{ with .Params.thumbnail }}
+    <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
+  {{ end }}
+  <section id="js-article" class="p-article__body">
+    {{ .Content }}
+  </section>
+  <footer>
+
+    <div class="sns-share">
+      <span>
+        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </span>
+
+      <span>
+        <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </span>
+
+      <span>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+      </span>
+
+      <span>
+        <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+        <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+      </span>
+    </div>
+
+    {{ with .Site.Params.disqus }}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = '{{ . }}';
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {{ end }}
+    <nav class="p-pagination c-pagination">
+      <div class="c-pagination__ctrl">
+        <div class="c-pagination__newer">
+          {{ if .Prev }}
+          <a href="{{ .Prev.Permalink }}">Newer</a>
+          {{ else }}
+          {{ end }}
+        </div>
+        <div class="c-pagination__older">
+          {{ if .Next }}
+          <a href="{{ .Next.Permalink }}">Older</a>
+          {{ else }}
+          {{ end }}
+        </div>
+      </div>
+    </nav>
+    {{ partial "siteinfo.html" . }}
+  </footer>
+</article>
+{{ partial "footer.html" . }}

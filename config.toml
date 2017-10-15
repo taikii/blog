@@ -1,0 +1,40 @@
+baseurl = "http://taikii.github.io/"
+languageCode = "ja"
+Title = "The Wonderful Similar Posts"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright 2017 Taiki IKEGAME"
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  #twitter = "Your Twitter username"
+  #facebook = "Your Facebook username"
+  #instagram = "Your Instagram username"
+  #googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
+  github = "taikii"
+  #npm = "Your npm username"
+  #codepen = "Your CodePen username"
+  #dribbble = "Your Dribbble username"
+  #fivehundredpx = "Your 500px username" # 500px
+  #flickr = "Your Flickr username"
+  #pinterest = "Your Pinterest username"
+  #tumblr = "Your Tumblr username"
+  #vimeo = "Your Vimeo username"
+  #youtube = "Your YouTube username"
+  #linkedin = "Your LinkedIn username"
+  # Disqus shortname
+  #disqus = ""
+  # Google Analytics API key.
+  ga_api_key = "UA-108071624-1"
+  author = "Taiki IKEGAME"
+  authorwebsite = "taikii.github.io"
+  #avatar = "/path/to/avatar"
+  #avatar = ""
+  #contact = "Your contact link (ex. mailto:foo@example.com)"
+  bio = "私は三流プログラマなので誰もが知っている当たり前のことしか書くことができません。ごめんなさい。"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "重複記事を書こう"
+  # Logo image. This is displayed ogp image.
+  #logo = "/path/to/logo"
+  #favicon = "/path/to/favicon"
