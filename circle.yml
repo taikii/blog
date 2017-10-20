@@ -19,5 +19,5 @@ deployment:
       - git clone git@github.com:taikii/taikii.github.io.git public
       - hugo
       - cd public && git add .
-      - cd public && git commit -m "[ci skip] publish"
+      - cd public && git commit -m "Rebuilding site"
       - cd public && git push origin master
