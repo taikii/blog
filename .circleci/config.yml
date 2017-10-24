@@ -5,6 +5,8 @@ jobs:
       - image: felicianotech/docker-hugo:latest
     steps:
       - checkout
+      - run: git config --global user.name "Taiki IKEGAME"
+      - run: git config --global user.email "taikii@users.noreply.github.com"
       - run: git submodule sync
       - run: git submodule update --init --recursive
       - run: git clone git@github.com:taikii/taikii.github.io.git public
