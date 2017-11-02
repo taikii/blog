@@ -80,12 +80,7 @@ https://circleci.com/
 
 Circle CIにログインすると、自分のGitHub上のプロジェクトの一覧が表示され、セットアップしろと言われるので、blogリポジトリの右側に表示されている`Setup project`をクリックして設定画面に進みます。その後、Operating systemは`Linux`、Platformは`2.0`を選択して（どちらもデフォルト）、`Start building`をクリックします。
 
-この時点ではCircle CIにユーザページサイトリポジトリへの書き込み権限を与えていないためビルドが失敗します。このため、Circle CIに書き込み権限を与える必要がありますが、方法は2つあります。
-
-1. User keyを登録する（自分が権限を持っているすべてのリポジトリに読み書きできるようになる）
-2. Deploy keyを登録する（特定のリポジトリに読み書きできるようになる）
-
-※Depley keyの登録方法については[公式マニュアル](https://circleci.com/docs/1.0/adding-read-write-deployment-key/)を参照してください。ここではUser keyの登録の仕方について解説します。
+この時点ではCircle CIにユーザページサイトリポジトリへの書き込み権限を与えていないためビルドが失敗します。このため、Circle CIに書き込み権限を与える必要があります。
 
 BUILDS画面の右上の歯車アイコンをクリックして設定画面を開きます。`PERMISSIONS` > `Checkout SSH keys` と選択し、`Add User key`にある `Create and Add User key`ボタンをクリックします。GitHubの認証画面が表示されるので認証を行えば、権限付与の完了です。
 
