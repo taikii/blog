@@ -1,6 +1,6 @@
 baseurl = "https://taikii.github.io/"
 languageCode = "ja"
-Title = "Similar Posts"
+Title = "taikii blog"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2017 Taiki IKEGAME"
 theme = "hugo_theme_pickles"
@@ -34,7 +34,7 @@ theme = "hugo_theme_pickles"
   #contact = "Your contact link (ex. mailto:foo@example.com)"
   bio = "私は三流プログラマなので誰もが知っている当たり前のことしか書くことができません。ごめんなさい。"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "重複記事を書こう"
+  subtitle = ""
   # Logo image. This is displayed ogp image.
   #logo = "/path/to/logo"
   #favicon = "/path/to/favicon"
