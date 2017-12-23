@@ -15,4 +15,4 @@ jobs:
       #    name: "Test Website"
       #    command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
       - deploy:
-          command: cd public && git add . && git diff --cached --exit-code --quiet || git commit -m "Rebuilding site" && git push origin master
+          command: cd public && git add -A . && git diff --cached --exit-code --quiet || git commit -m "Rebuilding site" && git push origin master
