@@ -1,40 +1,83 @@
 baseurl = "https://taikii.github.io/"
+title = "taikii blog"
+theme = "whiteplain"
 languageCode = "ja"
-Title = "taikii blog"
+
+disqusShortname = "taikii-github-io"
+googleAnalytics = "UA-108071624-1"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2017 Taiki IKEGAME"
-theme = "hugo_theme_pickles"
 
 [params]
-  paginate = 10
-  # Social accounts. Link to these accounts are displayed in the header and
-  # footer
-  #twitter = "Your Twitter username"
-  #facebook = "Your Facebook username"
-  #instagram = "Your Instagram username"
-  #googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
-  github = "taikii"
-  #npm = "Your npm username"
-  #codepen = "Your CodePen username"
-  #dribbble = "Your Dribbble username"
-  #fivehundredpx = "Your 500px username" # 500px
-  #flickr = "Your Flickr username"
-  #pinterest = "Your Pinterest username"
-  #tumblr = "Your Tumblr username"
-  #vimeo = "Your Vimeo username"
-  #youtube = "Your YouTube username"
-  #linkedin = "Your LinkedIn username"
-  # Disqus shortname
-  disqus = "taikii-github-io"
-  # Google Analytics API key.
-  ga_api_key = "UA-108071624-1"
-  author = "Taiki IKEGAME"
-  authorwebsite = "taikii.github.io"
+  dateFormat = "January 2, 2006"
+
+[params.author]
+  name = "Taiki IKEGAME"
+  #gravatar = "Gravatar email"
   #avatar = "/path/to/avatar"
-  #contact = "Your contact link (ex. mailto:foo@example.com)"
-  bio = "私は三流プログラマなので誰もが知っている当たり前のことしか書くことができません。ごめんなさい。"
-  # Short subtitle/tagline. This is displayed in the header.
-  subtitle = ""
-  # Logo image. This is displayed ogp image.
-  #logo = "/path/to/logo"
-  #favicon = "/path/to/favicon"
+
+  # twitter = "Twitter username"
+  # facebook = "Facebook username"
+  # googleplus = "Googleplus username"
+  # instagram = "Instagram username"
+  # tumblr = "Tumblr username"
+  # flickr = "Flickr username"
+  # reddit = "Reddit username"
+  # linkedin = "Linkedin username"
+  # slideshare = "Slideshare username"
+  # github = "Github username"
+  # gitlab = "Gitlab username"
+  # bitbucket = "Bitbucket username"
+  # stackoverflow = "Stackoverflow username"
+  # jsfiddle = "Jsfiddle username"
+  # codepen = "Codepen username"
+  # deviantart = "Deviantart username"
+  # behance = "Behance username"
+  # dribbble = "Dribbble username"
+  # wordpress = "Wordpress username"
+  # medium = "Medium username"
+  # foursquare = "Foursquare username"
+  # xing = "Xing username"
+  # quora = "Quora username"
+  # youtube = "Youtube username"
+  # vimeo = "Vimeo username"
+  # whatsapp = "Whatsapp username"
+  # skype = "Skype username"
+  # snapchat = "Snapchat username"
+  # pinterest = "Pinterest username"
+  # telegram = "Telegram username"
+  # vine = "Vine username"
+  # email = "Your email"
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+# Header Menu
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 1
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 2
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 3
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"

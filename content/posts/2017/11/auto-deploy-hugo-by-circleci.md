@@ -2,6 +2,7 @@
 title: "Auto Deploy Hugo by Circle CI 2.0"
 date: 2017-11-01T22:23:47+09:00
 tags: ["Hugo", "Circle CI", "TIL"]
+series: ["Hugo 構築"]
 ---
 以前、[Hugoでブログサイトを作る](/posts/2017/10/build-site-by-hugo)記事を書きましたが、Circle CI 2.0を使って自動デプロイできるようにしたので、自分のやったことについてまとめます。
 <!--more-->

@@ -2,6 +2,7 @@
 title: "HTML5のDOCTYPE宣言は<!DOCTYPE html>か<!doctype html>か"
 date: 2017-10-02T00:00:00+09:00
 tags: ["TIL", "HTML5"]
+series: []
 ---
 正しいHTML5を書こうとしていろんなサイトのソースを見ていたところ、Googleの多くは小文字の`<!doctype html>`だったので違いを調べてみました。
 <!--more-->

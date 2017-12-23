@@ -2,6 +2,7 @@
 title: "Jekyllに対するHugoの優位点"
 date: 2017-10-13T00:30:12+09:00
 tags: ["TIL", "Hugo", "Jekyll", "GitHub"]
+series: ["Hugo 構築"]
 ---
 `Jekyll`+GitHub Pagesで少しだけブログを運用してみましたが、思うところがあってHugoに変えました。なぜ乗り換えたのか、Hugoがどのような点でJekyllに対して優れていると感じたのかをまとめます。
 <!--more-->

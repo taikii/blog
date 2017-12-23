@@ -2,6 +2,7 @@
 title: "バージョン1709時代のWSLリフレッシュ"
 date: 2017-11-12T23:14:22+09:00
 tags: ["TIL"]
+series: []
 ---
 Windows 10 Fall Creators Update（バージョン`1709`） において、Windows Subsystem for Linux（以下WSL）のアンインストールで少しハマりました。
 <!--more-->
@@ -11,7 +12,7 @@ Windows Subsystem for Linux（以下WSL）で色々試してましたが、環�
 
 そこでググったところ、`lxrun.exe`というコマンドがあるとのこと。
 
-```
+```text
 C:\>lxrun /?
 警告: lxrun.exe は、Linux ディストリビューションのためにレガシ Windows サブシステムを構成するだけに使用されます。
 ディストリビューションは次の Windows ストアを訪問してインストールすることができます:
@@ -33,7 +34,7 @@ https://aka.ms/wslstore
 
 つまり `lxrun /uninstall /full /y` を実行すればいいわけです。
 
-```
+```text
 C:\>lxrun /uninstall /full /y
 警告: lxrun.exe は、Linux ディストリビューションのためにレガシ Windows サブシステムを構成するだけに使用されます。
 ディストリビューションは次の Windows ストアを訪問してインストールすることができます:
@@ -49,7 +50,7 @@ Windows Subsystem for Linux でインストール、アンインストール操�
 
 なんか、更新プログラムのインストール等で再起動待ちになってるんじゃないかという感じらしいので、Windowsを再起動してもう一度試す。
 
-```
+```text
 Windows Subsystem for Linux でインストール、アンインストール操作が保留中です。
 ```
 

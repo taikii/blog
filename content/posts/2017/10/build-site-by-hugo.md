@@ -2,11 +2,13 @@
 title: "Build Site by Hugo"
 date: 2017-10-17T00:25:05+09:00
 tags: ["Hugo", "GitHub"]
+series: ["Hugo 構築"]
 ---
 静的サイトジェネレータHugoとGitHub Pagesでブログを公開する方法についてまとめました。
+
 <!--more-->
 
-[Jekyllに対するHugoの優位点](./jekyll-vs-hugo.md)の続きです。
+[Jekyllに対するHugoの優位点](jekyll-vs-hugo.md)の続きです。
 
 私の環境は以下のようなものです。
 

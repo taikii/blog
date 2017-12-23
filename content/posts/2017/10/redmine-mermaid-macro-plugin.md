@@ -2,6 +2,7 @@
 title: "Redmine Mermaid Macro Plugin"
 date: 2017-10-15T22:56:54+09:00
 tags: ["Redmine"]
+series: []
 ---
 Redmine上で`mermaid.js`を実行するプラグインを作りました。
 <!--more-->
