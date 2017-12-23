@@ -10,7 +10,6 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 
-# Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2017 Taiki IKEGAME"
 
 [params]
