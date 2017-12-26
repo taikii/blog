@@ -5,10 +5,8 @@ tags: ["Hugo"]
 series: []
 image: https://raw.githubusercontent.com/taikii/whiteplain/master/images/screenshot.png
 ---
-他の方が作ったテーマを使うのは、やはりエンジニアとしてだめなんじゃないかと思いたち、[Whiteplain](https://themes.gohugo.io/whiteplain/)というHugoテーマを作りました。
+他の方が作ったテーマを使うのは、エンジニアとして負けなんじゃないかと思い、[Whiteplain](https://themes.gohugo.io/whiteplain/)というHugoテーマを作りました。
 <!--more-->
-
-目的としては自分用に作ったのでこのサイトで使っています。
 
 Whiteplainの特徴としては以下のような感じです。
 
@@ -18,8 +16,8 @@ Whiteplainの特徴としては以下のような感じです。
 
 いろんなテーマを拝見して~~パク~~参考にさせていただきました。
 
-まともにHTML5を触ったことがなかったので、HTML5の勉強という側面もあります。
+まともにHTML5を触ったことがなかったので、HTML5の勉強も兼ねてます。
 
-もし気に入ってくれる方がいらっしゃればご利用いただけると幸いです。
+自分用に作ったものなので至らない点があるかと思いますが、もし気に入っていただけるのであれば、ぜひ使ってやってください。
 
 PullReq大歓迎。

@@ -8,7 +8,7 @@ series: ["Hugo 構築"]
 
 <!--more-->
 
-[Jekyllに対するHugoの優位点](jekyll-vs-hugo.md)の続きです。
+[Jekyllに対するHugoの優位点]({{< relref "posts/2017/10/jekyll-vs-hugo.md" >}})の続きです。
 
 私の環境は以下のようなものです。
 
