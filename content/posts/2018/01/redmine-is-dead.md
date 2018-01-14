@@ -3,7 +3,6 @@ title: "Redmine is Dead"
 date: 2018-01-15T00:04:00+09:00
 tags: ["Redmine", "GitLab"]
 series: []
-draft: true
 ---
 ぶっちゃけ、私も "XX is Dead" という記事を書いてみたかっただけです。はい。
 
