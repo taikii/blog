@@ -4,7 +4,7 @@ theme = "whiteplain"
 languageCode = "ja"
 
 disqusShortname = "taikii-github-io"
-googleAnalytics = "UA-108071624-1"
+googleAnalytics = "UA-114764514-1"
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
