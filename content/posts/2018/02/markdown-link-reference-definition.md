@@ -1,6 +1,7 @@
 ---
 title: "Markdownでリンクを定義して使いまわす"
 date: 2018-02-15T11:16:56+09:00
+lastmod: 2018-05-01
 tags: ["Markdown"]
 series: []
 ---
@@ -12,11 +13,11 @@ series: []
 
 ```markdown
 [taikii-blog]: https://taikii.github.io
-
-[taikii-blog] や taikii-blog と書くとリンクになる。
+[taikii-blog] と書くとリンクになる。
 ```
 
-[taikii-blog] や taikii-blog と書くとリンクになる。
+[taikii-blog]: https://taikii.github.io
+[taikii-blog] と書くとリンクになる。
 
 
 少し調べたところ、このラベル定義は実装によって癖があるようです。
@@ -26,3 +27,6 @@ series: []
 
 
 覚えておくと便利・・・いや、別に覚えなくていい気がします。使い所が謎。
+
+## 2018/05/01追記
+リンクになっていなかったので修正しました。
