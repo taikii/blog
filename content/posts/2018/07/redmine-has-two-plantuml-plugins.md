@@ -3,7 +3,7 @@ title: "Redmineには2つのPlantUMLプラグインがある"
 date: 2018-07-05T21:43:58+09:00
 tags: ["Redmine","PlantUML"]
 series: []
-image: "https//imgur.com/gofQOdg.jpg"
+image: "https://imgur.com/gofQOdg.jpg"
 ---
 
 RedmineでPlantUMLを書くことのできるプラグインを2つ紹介したいと思います。
