@@ -9,6 +9,7 @@ jobs:
       - run: git config --global user.email "taikii@users.noreply.github.com"
       - run: git submodule sync
       - run: git submodule update --init --recursive
+      - run: git submodule foreach git pull
       - run: git clone git@github.com:taikii/taikii.github.io.git public
       - run: hugo
       #- run:
