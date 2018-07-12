@@ -1,4 +1,4 @@
-baseurl = "https://taikii.github.io/"
+baseurl = "https://taikii.net/"
 title = "taikii blog"
 theme = "whiteplain"
 languageCode = "ja"
@@ -17,7 +17,7 @@ copyright = "&copy; Copyright 2017 taikii"
 
 [params.author]
   name = "taikii"
-  #gravatar = "Gravatar email"
+  gravatar = "d985cd76917351f7285c9e3eced61578"
   #avatar = "/path/to/avatar"
 
   twitter = "taikiix"
