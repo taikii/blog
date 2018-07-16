@@ -1,0 +1,22 @@
+---
+label: default
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  label: date
+  name: date
+  config:
+    date_format: YYYY/MM/DD
+    required: true
+- type: tag_list
+  name: tags
+  label: tags
+- type: tag_list
+  name: series
+  label: series
