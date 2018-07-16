@@ -20,3 +20,5 @@ fields:
 - type: tag_list
   name: series
   label: series
+pages:
+- content/posts/2018/07/forestryio.md
