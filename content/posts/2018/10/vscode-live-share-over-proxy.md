@@ -1,5 +1,5 @@
 ---
-title: "VSCode Live Shareでプロキシを超える"
+title: "VSCode Live Shareでプロキシを越える"
 date: 2018-10-11T23:09:50+09:00
 tags: ["VSCode"]
 series: []
