@@ -13,7 +13,10 @@ pygmentsOptions = "linenos=table"
 copyright = "&copy; Copyright 2017 taikii"
 
 [params]
+  useCDN = false
+  #showShareIcons = false
   dateFormat = "January 2, 2006"
+  favicon = "/images/favicon.ico"
 
 [params.author]
   name = "taikii"
