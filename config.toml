@@ -3,7 +3,7 @@ title = "taikii blog"
 theme = "whiteplain"
 languageCode = "ja"
 
-disqusShortname = "taikii-github-io"
+#disqusShortname = ""
 googleAnalytics = "UA-114764514-1"
 
 pygmentsCodefences = true
