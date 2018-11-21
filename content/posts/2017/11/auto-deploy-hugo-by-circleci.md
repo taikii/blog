@@ -4,7 +4,7 @@ date: 2017-11-01T22:23:47+09:00
 tags: ["Hugo", "Circle CI", "TIL"]
 series: ["Hugo 構築"]
 ---
-以前、[Hugoでブログサイトを作る]({{< relref "posts/2017/10/build-site-by-hugo.md" >}})記事を書きましたが、Circle CI 2.0を使って自動デプロイできるようにしたので、自分のやったことについてまとめます。
+以前、[Hugoでブログサイトを作る]({{< ref "/posts/2017/10/build-site-by-hugo.md" >}})記事を書きましたが、Circle CI 2.0を使って自動デプロイできるようにしたので、自分のやったことについてまとめます。
 <!--more-->
 
 ## 前提として
