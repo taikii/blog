@@ -37,13 +37,13 @@ Redmineには元々セクション単位に編集する機能があるため、�
 
 ### [GitHub Style Fenced Code Block Plugin](https://github.com/taikii/redmine_github_style_fenced_code_block)
 
-WikiFormattingがMarkdownの際に、ツールバーでコードブロックを作ると「`~~~`」になるのですが、それを「```」に変更するプラグインです。
+WikiFormattingがMarkdownの際に、ツールバーでコードブロックを作ると `~~~` になるのですが、それを <code>```</code> に変更するプラグインです。
 
 ![](https://github.com/taikii/redmine_github_style_fenced_code_block/raw/master/docs/images/screenshot.gif)
 
-[#22843](https://www.redmine.org/issues/22843) で [@g_maeda](https://twitter.com/g_maeda) さんがパッチを当ててくれたので、Redmine 4.0からは「```」がデフォになり、晴れて御役御免となりました。それにしても無事リリースされてよかったですね、4.0。
+[#22843](https://www.redmine.org/issues/22843) で [@g_maeda](https://twitter.com/g_maeda) さんがパッチを当ててくれたので、Redmine 4.0からは <code>```</code> がデフォになり、晴れて御役御免となりました。それにしても無事リリースされてよかったですね、4.0。
 
-そもそも三連バッククォート（書けない…）のほうがメジャーやろっていうのもあるんですが、Markdownでは「`~~`」（二連チルダ）が打ち消し線に割り当てられていて、全く意味が違う割に似通っているので、見分け付きづらッ！というのが理由です。
+そもそも <code>```</code> のほうがメジャーやろっていうのもあるんですが、Markdownでは  <code>~~</code> が打ち消し線に割り当てられていて、全く意味が違う割に似通っているので、見分け付きづらッ！というのが理由です。
 
 JSのツールバーボタンPrototypeを上書きする形で実装しました。
 
