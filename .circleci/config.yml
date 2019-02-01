@@ -5,12 +5,12 @@ jobs:
       - image: cibuilds/hugo:latest
     steps:
       - checkout
-      - run: git config --global user.name "Taiki IKEGAME"
-      - run: git config --global user.email "taikii@users.noreply.github.com"
+      - run: git config --global user.name "${GIT_USERNAME}"
+      - run: git config --global user.email "${GIT_EMAIL}"
       - run: git submodule sync
       - run: git submodule update --init --recursive
       - run: git submodule foreach git pull origin master
-      - run: git clone git@github.com:taikii/taikii.github.io.git public
+      - run: git clone ${GENERATED_SITE_REPO} public
       - run: hugo
       #- run:
       #    name: "Test Website"
