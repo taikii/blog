@@ -1,6 +1,7 @@
 ---
 title: "Redmine is Dead"
 date: 2018-01-15T00:04:00+09:00
+updated: 2019-02-09T11:43:00+9:00
 tags: ["Redmine", "GitLab"]
 series: []
 ---
@@ -40,7 +41,9 @@ Redmineの[シンタックスハイライトで使用できる言語/フォー�
 
 巷の女子高生に大人気！ナウくてヤングなイケイケプログラム言語はたくさんありますが、それらはまったくサポートされていません。例えば、Kotlin、Scala、Rust、そしてSwiftまでもサポートされていません。シンタックスハイライトは必ずしも必要な機能ではありませんが、Redmineのメインターゲットはやはりシステム開発者ですので、自分たちが日常的に使用しているプログラム言語がサポートされているかどうかは重要なポイントになるでしょう。
 
-CodeRayから[Rouge](http://rouge.jneen.net/)に[変更する動き](http://www.redmine.org/issues/24681)もありますが、今のところ実現には至っていません。
+CodeRayから[Rouge](http://rouge.jneen.net/)に[変更する動き](http://www.redmine.org/issues/24681)もありますが、今のところ実現には至っていません。[^1]
+
+[^1]: 2018/12/9にリリースされた [Redmine 4.0](http://blog.redmine.jp/articles/4_0/changelog/) でRougeに変更されました！
 
 #### SNS機能がない
 Redmineにはフォロー、メンションなどのSNS機能がありません。フォローと似た機能に「ウォッチ」がありますが、ユーザをウォッチすることはできません。個人のフィードは見ることができます。
