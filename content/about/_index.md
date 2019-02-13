@@ -35,6 +35,10 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 / [Redmine Include Macro Extension](https://www.redmine.org/plugins/redmine_include_macro_extension)
 / [BR Macro](https://www.redmine.org/plugins/redmine_br_macro)
 
+＜Hugoテーマ＞
+
+[Whiteplain](https://themes.gohugo.io/whiteplain/)
+
 ### 趣味
 
 `undefined`
