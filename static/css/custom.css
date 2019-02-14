@@ -1,3 +1,8 @@
 pre, code {
   font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
 }
+
+.article .article-image {
+  max-height: 280px;
+  object-fit: cover;
+}
