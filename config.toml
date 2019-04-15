@@ -2,6 +2,7 @@ baseurl = "https://taikii.net/"
 title = "taikii blog"
 theme = "whiteplain"
 languageCode = "ja"
+enableEmoji = true
 
 #disqusShortname = ""
 googleAnalytics = "UA-114764514-1"
