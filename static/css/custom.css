@@ -1,3 +1,5 @@
+@import url(./whiteplain-dark.css);
+
 pre, code {
   font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
 }
