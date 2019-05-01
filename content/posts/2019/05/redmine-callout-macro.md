@@ -4,7 +4,7 @@ date: 2019-05-01T09:07:06+09:00
 tags: ["Redmine"]
 ---
 
-Redmine Callout Macroプラグイン作りました。[GitBookではHintsとかCallout](https://docs.gitbook.com/content-editing/rich-content#hints-and-callouts)、[VuePressではCustom Containers](https://vuepress.vuejs.org/guide/markdown.html#custom-containers)とか呼ばれてるやつです。
+Redmineの[Callout Macroプラグイン](https://github.com/taikii/redmine_callout_macro)というのを作りました。[GitBookではHintsとかCallout](https://docs.gitbook.com/content-editing/rich-content#hints-and-callouts)、[VuePressではCustom Containers](https://vuepress.vuejs.org/guide/markdown.html#custom-containers)とか呼ばれてるやつです。
 
 <!--more-->
 
