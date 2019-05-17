@@ -2,7 +2,7 @@
 title: About
 ---
 
-一山いくらの三流？四流？プログラマです。誰もが知っている当たり前のことしか書くことができません。ごめんなさい。
+一山いくらの量産型プログラマです。誰もが知っている当たり前のことしか書くことができません。ごめんなさい。
 
 ## スキル
 
@@ -30,14 +30,16 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 
 ＜Redmineプラグイン＞
 
-[Mermaid Macro](https://www.redmine.org/plugins/redmine_mermaid_macro)
+[Related Wiki](https://www.redmine.org/plugins/redmine_related_wiki)
+/ [Callout Macro](https://www.redmine.org/plugins/redmine_callout_macro)
+/ [Mermaid Macro](https://www.redmine.org/plugins/redmine_mermaid_macro)
 / [Redmine Custom Auto-Complete](https://www.redmine.org/plugins/redmine_custom_auto_complete)
 / [Redmine Include Macro Extension](https://www.redmine.org/plugins/redmine_include_macro_extension)
 / [BR Macro](https://www.redmine.org/plugins/redmine_br_macro)
 
 ＜Hugoテーマ＞
 
-[Whiteplain](https://themes.gohugo.io/whiteplain/)
+[Whiteplain](https://themes.gohugo.io/whiteplain/) ([Dark](https://github.com/taikii/whiteplain-dark))
 
 ### 趣味
 
