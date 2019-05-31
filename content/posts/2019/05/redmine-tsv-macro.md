@@ -8,6 +8,8 @@ tags: ["Redmine"]
 
 <!--more-->
 
+[Redmine TSV Macro Plugin](https://github.com/taikii/redmine_tsv_macro)（リンク貼り忘れてた）
+
 この機能は[元々Crowiに存在](https://medium.com/crowi-book/crowi-v1-5-0-5a62e7c6be90)していて、かなり感動したのを記憶しています。その~~パクリ~~移植です。
 
 ```
