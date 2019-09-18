@@ -1,7 +1,7 @@
 ---
 title: "JPAでシーケンスを使ってIDを自動採番する場合の注意点"
 date: 2019-09-18T23:40:30+09:00
-tags: ["Java", "JPA", "Oracle"]
+tags: ["Java", "JPA", "Oracle", "TIL"]
 series: []
 ---
 
