@@ -15,7 +15,7 @@ copyright = "&copy; Copyright 2017 taikii"
 
 [params]
   useCDN = false
-  #showShareIcons = false
+  showShareIcons = true
   dateFormat = "January 2, 2006"
   favicon = "/images/favicon.ico"
 
