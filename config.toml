@@ -1,6 +1,6 @@
 baseurl = "https://taikii.net/"
 title = "taikii blog"
-theme = ["whiteplain-dark","whiteplain"]
+theme = ["whiteplain"]
 languageCode = "ja"
 enableEmoji = true
 

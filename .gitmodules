@@ -4,3 +4,6 @@
 [submodule "themes/whiteplain-dark"]
 	path = themes/whiteplain-dark
 	url = https://github.com/taikii/whiteplain-dark.git
+[submodule "themes/whiteplain-light"]
+	path = themes/whiteplain-light
+	url = https://github.com/taikii/whiteplain-light.git
