@@ -2,6 +2,7 @@
 title: "thymeleaf-extras-springsecurityでURLへのアクセス権の有無によってリンクとラベルを切り替える"
 date: 2020-08-02T00:17:49+09:00
 tags: ["Spring Boot", "Spring Security", "Thymeleaf"]
+updated: 2020-08-30T16:18:56+09:00
 ---
 
 [thymeleaf-extras-springsecurity](https://github.com/thymeleaf/thymeleaf-extras-springsecurity) を使うと Thymeleaf で Spring Security のオブジェクトにアクセスできるようになります。
@@ -34,6 +35,15 @@ Spring Security の認可系の処理は `#authorization` オブジェクトで�
 </th:block>
 ```
 
-
-
 もっとスマートな書き方があれば教えていただけると嬉しいです。
+
+## th:remove を使うべき（2020/08/30追記）
+
+`th:remove` に `tag` を設定することで子の要素を残したまま自身のタグを削除することができます。これを使うのがスマートですね。（`th:remove="tag"` しても `th:text="xxx"` で出力されるボディは残ります。）
+
+```html
+<a th:href="@{/admin}" th:text="|Admin|"
+    th:remove="${not #authorization.url('/admin')}? tag"></a>
+```
+
+[8.4 テンプレートフラグメントの削除 - Tutorial: Using Thymeleaf (ja)](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf_ja.html#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%83%95%E3%83%A9%E3%82%B0%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E5%89%8A%E9%99%A4)
