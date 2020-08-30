@@ -12,7 +12,7 @@ updated: 2020-08-30T16:18:56+09:00
 ## TL;DR
 
 ```html
-<p th:text="${item[#messages.msg('i18nfields.name')]}"></p>
+<p th:text="${item.__#{i18nfields.name}__}"></p>
 ```
 
 ## やっていき
