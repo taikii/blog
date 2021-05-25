@@ -46,6 +46,11 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 
 `undefined`
 
-## 免責事項
+## 免責事項・プライバシーポリシー
 
-このサイトのアレは個人の見解であり、所属する組織やアレとは一切関係ありません。
+当サイトの発言は個人の見解であり、所属組織を代表するものではありません。
+
+当サイトはAmazonのアソシエイトに参加しており、適格販売により収入を得ています。
+
+当サイトはGoogleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。
+この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関しての詳細は[Googleアナリティクスサービス利用規約](https://www.google.com/intl/ja/policies/privacy/partners/)のページや[Googleポリシーと規約](https://www.google.com/intl/ja/policies/privacy/partners/)ページをご覧ください。
