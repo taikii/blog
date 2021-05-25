@@ -5,7 +5,7 @@ languageCode = "ja"
 enableEmoji = true
 
 #disqusShortname = ""
-googleAnalytics = "UA-114764514-1"
+#googleAnalytics = ""
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
