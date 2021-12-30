@@ -18,6 +18,7 @@ copyright = "&copy; Copyright 2017 taikii"
   showShareIcons = true
   dateFormat = "January 2, 2006"
   favicon = "/images/favicon.ico"
+  logo = "/images/logo.jpg"
 
 [params.author]
   name = "taikii"
