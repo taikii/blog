@@ -1,7 +1,7 @@
 ---
 title: "ブラウザのカラースキームによってWhiteplainの明暗を切り替わるようにしました"
 date: 2019-10-29T23:27:40+09:00
-tags: ["Hugo", "CSS"]
+tags: ["Hugo", "CSS", "Whiteplain"]
 series: []
 ---
 

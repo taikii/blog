@@ -1,7 +1,7 @@
 ---
 title: "Whiteplain gets DarkPower"
 date: 2019-04-26T00:15:02+09:00
-tags: ["Hugo"]
+tags: ["Hugo", "Whiteplain"]
 ---
 
 ・・・・・・暗・・・こ・・・・・・・ロ・・・も・・チ・・・・・・。

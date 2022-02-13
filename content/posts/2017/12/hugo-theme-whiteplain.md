@@ -1,7 +1,7 @@
 ---
 title: "Hugo Theme Whiteplain"
 date: 2017-12-25T23:39:49+09:00
-tags: ["Hugo"]
+tags: ["Hugo", "Whiteplain"]
 series: []
 image: https://raw.githubusercontent.com/taikii/whiteplain/master/images/screenshot.png
 ---
