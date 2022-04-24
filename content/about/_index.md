@@ -36,8 +36,8 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 / [Related Wiki](https://www.redmine.org/plugins/redmine_related_wiki)
 / [Callout Macro](https://www.redmine.org/plugins/redmine_callout_macro)
 / [Mermaid Macro](https://www.redmine.org/plugins/redmine_mermaid_macro)
-/ [Redmine Custom Auto-Complete](https://www.redmine.org/plugins/redmine_custom_auto_complete)
-/ [Redmine Include Macro Extension](https://www.redmine.org/plugins/redmine_include_macro_extension)
+/ [Custom Auto-Complete](https://www.redmine.org/plugins/redmine_custom_auto_complete)
+/ [Include Macro Extension](https://www.redmine.org/plugins/redmine_include_macro_extension)
 / [BR Macro](https://www.redmine.org/plugins/redmine_br_macro)
 
 ＜Hugoテーマ＞
