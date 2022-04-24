@@ -30,7 +30,9 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 
 ＜Redmineプラグイン＞
 
-[TSV Macro](https://www.redmine.org/plugins/redmine_tsv_macro)
+[No-Print Macro](https://github.com/taikii/redmine_noprint_macro)
+/ [Memo Macro](https://github.com/taikii/redmine_memo_macro)
+/ [TSV Macro](https://www.redmine.org/plugins/redmine_tsv_macro)
 / [Related Wiki](https://www.redmine.org/plugins/redmine_related_wiki)
 / [Callout Macro](https://www.redmine.org/plugins/redmine_callout_macro)
 / [Mermaid Macro](https://www.redmine.org/plugins/redmine_mermaid_macro)
