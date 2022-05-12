@@ -8,7 +8,7 @@ title: About
 
 ### プログラミング言語/フレームワーク
 
-Java / Struts 1.x / VBScript / C / Pro*C / Bash / JavaScript / Prototype.js / jQuery / HTML / CSS / SQL
+Java / Spring Boot / Struts 1.x / VBScript / C / Pro*C / Bash / JavaScript / Prototype.js / jQuery / HTML / CSS / SQL
 
 直近触っているのはJavaです。Cは長年触っていないので忘れています。基本的に持っている技術は古い。
 
@@ -54,5 +54,4 @@ Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab /
 
 当サイトはAmazonのアソシエイトに参加しており、適格販売により収入を得ています。
 
-当サイトはGoogleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。
-この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関しての詳細は[Googleアナリティクスサービス利用規約](https://www.google.com/intl/ja/policies/privacy/partners/)のページや[Googleポリシーと規約](https://www.google.com/intl/ja/policies/privacy/partners/)ページをご覧ください。
+当サイトは2021年5月までGoogleによるアクセス解析ツール「Googleアナリティクス」を使用していました。現在は使用していません。
