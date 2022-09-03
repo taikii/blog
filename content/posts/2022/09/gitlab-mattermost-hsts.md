@@ -12,7 +12,7 @@ tags: ["GitLab", "Mattermost"]
 
 HSTSとは、サーバから `Strict-Transport-Security` というヘッダを返却すると、このヘッダを受け取ったブラウザは、そのWebサイトに対してHTTPSを強制するようになる機能です。
 
-今回は、HTTPSで運用しているMattermostにアクセスすると `Strict-Transport-Security: max-age=63072000` （有効期限2年）が返却され、これによって同じホスト上でHTTPのみで運用しているRedmineにアクセスすると `307` でHTTPSにリダイレクトしてしまい、アクセスができなくなってしまいました。
+今回は、HTTPSで運用しているMattermostにアクセスすると `Strict-Transport-Security: max-age=63072000` （有効期限2年）が返却され、これによって同じホスト上でHTTPのみで運用しているGitLabにアクセスすると `307` でHTTPSにリダイレクトしてしまい、アクセスができなくなってしまいました。
 
 結論から言うと、 `gitlab.rb` （または `GITLAB_OMNIBUS_CONFIG`） で `mattermost_nginx['hsts_max_age'] = 0` を指定することでHSTSを無効化できました。
 手持ちの `gitlab.rb` には該当オプションがなかったけど、脈々と受け継がれてるファイルだからなぁ…最新化が必要かな？
