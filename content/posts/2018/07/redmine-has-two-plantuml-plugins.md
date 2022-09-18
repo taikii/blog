@@ -1,6 +1,7 @@
 ---
 title: "Redmineには2つのPlantUMLプラグインがある"
 date: 2018-07-05T21:43:58+09:00
+updated: 2022-09-18T23:28:00+09:00
 tags: ["Redmine","PlantUML"]
 series: []
 image: "https://imgur.com/gofQOdg.jpg"
@@ -40,7 +41,7 @@ Redmineで PlantUML を書くためのプラグインは2つあります。そ�
 
 ### PlantUML Redmine Macro
 
-[@gelin](https://bitbucket.org/gelin)さんの [PlantUML Redmine Macro](https://bitbucket.org/gelin/plantuml-redmine-macro) です。こちらのプラグインはPlugins Directoryには登録されていません。
+[@gelin](https://github.com/gelin)さんの [PlantUML Redmine Macro](https://github.com/gelin/plantuml-redmine-macro) です。こちらのプラグインはPlugins Directoryには登録されていません。
 
 このプラグインは外部のPlantUML Serverに対してリクエストする方式です。デフォルトでは http://plantuml.com/plantuml/ に対してリクエストするようになっていますが、設定により変更することが可能です。
 
@@ -48,7 +49,7 @@ Redmineで PlantUML を書くためのプラグインは2つあります。そ�
 
 ## どちらのプラグインを使うべきか
 
-Redmineから話が逸れますが、[PlantUML ServerがあればGitLab上でもPlantUMLを表示できます](https://docs.gitlab.com/ee/administration/integration/plantuml.html)。私の所属するチームではGitLabを使用していることもあり、どうせPlantUML Serverが必要なので後者の[PlantUML Redmine Macro](https://bitbucket.org/gelin/plantuml-redmine-macro)を使用しています。また、Redmineサーバ上にバイナリファイルを配置する必要もないため、Redmineのバージョンアップ時にも余計な考慮が不要です。
+Redmineから話が逸れますが、[PlantUML ServerがあればGitLab上でもPlantUMLを表示できます](https://docs.gitlab.com/ee/administration/integration/plantuml.html)。私の所属するチームではGitLabを使用していることもあり、どうせPlantUML Serverが必要なので後者の[PlantUML Redmine Macro](https://github.com/gelin/plantuml-redmine-macro)を使用しています。また、Redmineサーバ上にバイナリファイルを配置する必要もないため、Redmineのバージョンアップ時にも余計な考慮が不要です。
 
 PlantUML Serverを立てることが億劫であれば、[@dkd](https://github.com/dkd)さんのプラグインを使うほうが良いように思います。
 
