@@ -61,4 +61,4 @@ $ curl -s http://localhost:3000/projects/sandbox/wiki/Child.json \
 
 あと、ツイートした内容ちょっと違ってました。すみません。
 
-{{< tweet "1107947700027191296" >}}
+{{< tweet user="taikiix" id="1107947700027191296" >}}
