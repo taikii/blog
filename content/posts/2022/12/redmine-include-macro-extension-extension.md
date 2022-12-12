@@ -1,5 +1,5 @@
 ---
-title: "Redmine Includeマクロ拡張を拡張してテーブル表示できるようにした"
+title: "Redmine Includeマクロ拡張マクロを拡張してテーブル表示できるようにした"
 date: 2022-12-13T00:00:00+09:00
 tags: ["Redmine"]
 ---
