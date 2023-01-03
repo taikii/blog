@@ -17,3 +17,7 @@ jobs:
       #    command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
       - deploy:
           command: cd public && git add -A . && git diff --cached --exit-code --quiet || git commit -m "Rebuilding site" && git push origin master
+    filters:
+      branches:
+        only:
+          - main
