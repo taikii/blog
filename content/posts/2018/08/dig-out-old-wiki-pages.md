@@ -1,7 +1,7 @@
 ---
 title: "古いWikiページを掘り起こせ"
 date: 2018-08-11T13:46:12+09:00
-tags: ["Redmine","コラム"]
+tags: ["Redmine","Column"]
 series: []
 ---
 

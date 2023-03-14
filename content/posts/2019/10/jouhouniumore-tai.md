@@ -1,7 +1,7 @@
 ---
 title: "情報に埋もれTai"
 date: 2019-10-04T06:25:34+09:00
-tags: ["コラム"]
+tags: ["Column"]
 series: []
 ---
 

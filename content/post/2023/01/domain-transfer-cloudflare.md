@@ -1,7 +1,7 @@
 ---
 title: "ムームードメインからCloudflareにドメインを移管した"
 date: 2023-01-09T01:42:00+09:00
-tags: ["Colomn"]
+tags: ["Column"]
 ---
 
 これまでこのサイトは、Circle CIでビルドしGitHub Pagesでホスティングしてドメインはムームードメインで管理していました。[ムームードメインが2月からサービス維持調整費をとるようになる](https://muumuu-domain.com/information/news/4901) というのと、同じく2月から `.net` の価格が上がるということで、いい機会なのでCloudflareにドメインを移管することにしました。ついでにホスティングもCloudflare Pagesに変更しました。

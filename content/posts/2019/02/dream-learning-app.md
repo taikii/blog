@@ -1,7 +1,7 @@
 ---
 title: "こんな学習支援サービスがほしい"
 date: 2019-02-15T00:30:32+09:00
-tags: ["コラム"]
+tags: ["Column"]
 series: []
 image: "https://i.gyazo.com/8b36dec63090ecc47e05e60caf406940.jpg"
 ---
