@@ -14,11 +14,11 @@ Java / Spring Boot / Struts 1.x / VBScript / C / Pro*C / Bash / JavaScript / Pro
 
 ＜業務経験のないもの＞
 
-Ruby on Rails / Go / Spring boot
+Ruby on Rails / Go
 
 ＜その他＞
 
-Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab / GitLab CI / Circle CI / Gradle / Redmine
+Oracle Database / SQL Server / LDAP / Docker / Git / Subversion / CVS / GitLab / CircleCI / Gradle / Redmine
 
 ### 資格
 
