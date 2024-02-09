@@ -1,5 +1,5 @@
-baseurl = "https://taikii.net/"
-title = "taikii blog"
+baseurl = "https://nagarage.dev/"
+title = "N/A GARAGE"
 theme = ["whiteplain"]
 languageCode = "ja"
 enableEmoji = true
