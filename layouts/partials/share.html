@@ -19,8 +19,7 @@
   <!-- Sharingbutton X -->
   <li>
     <a class="resp-sharing-button__link" href="{{ printf "https://x.com/intent/tweet/?text=%s - %s&url=%s" (.Title | safeURL) (.Site.Title | safeURL) (replace (.Permalink | absURL) "%" "%25") | safeURL }}" target="_blank" rel="noopener" aria-label="Twitter">
-      <div class="resp-sharing-button resp-sharing-button--x resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
-        <i class="fa-brands fa-x-twitter"></i></div>Twitter</div>
+      <div class="resp-sharing-button resp-sharing-button--x resp-sharing-button--medium"><i class="fa-brands fa-x-twitter"></i></div>
     </a>
   </li>
 
