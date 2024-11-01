@@ -60,5 +60,3 @@ $ curl -s http://localhost:3000/projects/sandbox/wiki/Child.json \
 公式マニュアルがもう少し整備されているといいなーなんて思ったり。
 
 あと、ツイートした内容ちょっと違ってました。すみません。
-
-{{< tweet user="taikiix" id="1107947700027191296" >}}
