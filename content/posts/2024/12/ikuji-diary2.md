@@ -3,7 +3,6 @@ title: "育児日記のハードルを下げたい"
 date: 2024-12-03T00:00:00+09:00
 tags: ["Bluesky", "GitHub Actions"]
 series: []
-draft: true
 ---
 
 [子育てエンジニア Advent Calendar 2024](https://adventar.org/calendars/10811) 3日目の記事です。
