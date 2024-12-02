@@ -55,8 +55,8 @@ Markdownとして保存されていれば、GitHub上でプレビューできた
 
 * `SLACK_TOKEN` : 発行したトークンを `Authorization: Bearer xoxp-xxxxxxxxx-xxxx` の形式で設定おきます。これをHTTP Headerに乗せます。
 * `SLACK_CHANNEL` : チャンネルIDを指定します。 `channels:read` をつけていれば `https://slack.com/api/conversations.list` の `id` で確認できますが、普通にURLとして見えるのでわかるでしょう。
-* `GIT_EMAIL` : コミットユーザのEmail
-* `GIT_NAME` : コミットユーザの名前
+* ~~`GIT_EMAIL` : コミットユーザのEmail~~
+* ~~`GIT_NAME` : コミットユーザの名前~~
 
  `.github/workflows/slack2md.yml` みたいなファイルを作ります。日本時間9:15に定期実行するようにしていますが、負荷状況によってずれます。
 
@@ -102,10 +102,10 @@ jobs:
 
     - if: ${{ steps.count_messages.outcome == 'success' }}
       env:
-        GIT_AUTHOR_NAME: ${{ secrets.GIT_NAME }}
-        GIT_AUTHOR_EMAIL: ${{ secrets.GIT_EMAIL }}
-        GIT_COMMITTER_NAME: ${{ secrets.GIT_NAME }}
-        GIT_COMMITTER_EMAIL: ${{ secrets.GIT_EMAIL }}
+        GIT_AUTHOR_NAME: "github-actions[bot]"
+        GIT_AUTHOR_EMAIL: "github-actions[bot]@users.noreply.github.com"
+        GIT_COMMITTER_NAME: "github-actions[bot]"
+        GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
       run: |
         git add .
         git commit -m "Add files"
